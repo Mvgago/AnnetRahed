@@ -1,0 +1,21 @@
+nav {
+    background-color:rgb(177, 116, 177);
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    
+    h1 {
+        color: rgb(255, 255, 255);
+        font-size: medium;
+        margin-right: 1450px;
+    }
+    a  {
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    }
+}

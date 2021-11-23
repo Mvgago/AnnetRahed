@@ -1,0 +1,86 @@
+
+#container1 {
+@include viewport();
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    position: relative;
+
+    background-color: rgb(240, 240, 240);
+
+    img {
+        width: 700px;
+        padding-right: 100px;
+        padding-left: 200px;
+    }
+       
+
+    p {
+        font-size: 20px;
+        color: rgb(53, 53, 53);
+        position: absolute;
+        top: 55%;
+        left: 52.5%;
+        white-space: pre-wrap;
+    
+    }
+    
+    .etiqueta {
+        color: rgb(255, 255, 255);
+        border-radius: 7px;
+        padding: 10px;
+        background: $secondaryColor;
+        margin-right: 5px;
+        position: absolute;
+        top: 40%;
+        left: 52.5%;
+    }
+
+    iframe {
+        border-radius: 10px;
+    }
+
+}
+
+#container2 {
+    @include viewport();
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:left;
+    position: relative;
+    
+    background-color: rgb(12, 12, 12);
+
+    img {
+        width: 700px;
+        padding-right: 100px;
+        padding-left: 200px;
+    }
+
+    iframe {
+        border-radius: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        color: $primaryColor;
+        position: absolute;
+        top: 55%;
+        left: 52.5%;
+        white-space: pre-wrap;
+    
+    }
+    
+    .etiqueta {
+        color: rgb(255, 255, 255);
+        border-radius: 7px;
+        padding: 10px;
+        background: $primaryColor;
+        margin-right: 5px;
+        position: absolute;
+        top: 40%;
+        left: 52.5%;
+    }
+}
